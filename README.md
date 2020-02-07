@@ -1,4 +1,4 @@
-# Recipe Book
+# Recipe Book 
 
 ## Topics
 
@@ -19,7 +19,7 @@ The requirements for the system, as stated by the client are:
 - when saving the ingredients for a **recipe** capture the quantity required for that **ingredient** as a floating number.
 - have a way to save step by step instructions for preparing a recipe.
 
-**Hint**: Before writing any code, write out all desired tables in the data model and determine all relationships between tables. 
+**Hint**: Before writing any code, write out all desired tables in the data model and determine all relationships between tables.
 
 ### Migrations and Seeds
 
@@ -43,4 +43,4 @@ Build the following endpoints. Write any additional data access helpers as neede
 - `GET /api/recipes/`: all recipes (without details about ingredients or steps)
 - `GET /api/recipes/:id/shoppingList`: a list of ingredients and quantites for a single recipe
 - `GET /api/recipes/:id/instructions`: a correctly ordered list of how to prepare a single recipe
-- `GET /api/ingredients/:id/recipes`: all recipes in the system that utilize a single ingredient 
+- `GET /api/ingredients/:id/recipes`: all recipes in the system that utilize a single ingredient
