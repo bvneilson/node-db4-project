@@ -1,0 +1,25 @@
+{
+  "name": "db4-project",
+  "version": "1.0.0",
+  "description": "Node DB 4 Project",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.9",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvneilson/node-db4-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvneilson/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/bvneilson/node-db4-project#readme"
+}
